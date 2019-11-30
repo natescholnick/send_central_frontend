@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../App.css';
-import './loginForm.css';
+import './registerForm.css';
 
 function RegisterForm(props) {
   return (
-    <form className="RegisterForm" onSubmit+{props.register}>
+    <form className="RegisterForm" onSubmit={props.register}>
       <div className="form-group">
         <label>First Name</label>
         <input type="text" className="form-control" name="firstname" required />

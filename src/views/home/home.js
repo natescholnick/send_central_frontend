@@ -6,7 +6,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="row Home">
-        <div className="col-md-6">
+        <div className="col-md-6 offset-md-3">
           <h1>FEED CONTENT</h1>
         </div>
       </div>
