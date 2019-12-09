@@ -7,11 +7,11 @@ function RegisterForm(props) {
     <form className="RegisterForm" onSubmit={props.register}>
       <div className="form-group">
         <label>First Name</label>
-        <input type="text" className="form-control" name="firstname" required />
+        <input type="text" className="form-control" name="first_name" required />
       </div>
       <div className="form-group">
         <label>Last Name</label>
-        <input type="text" className="form-control" name="lastname" required />
+        <input type="text" className="form-control" name="last_name" required />
       </div>
       <div className="form-group">
         <label>Birthdate</label>
@@ -19,7 +19,7 @@ function RegisterForm(props) {
       </div>
       <div className="form-group">
         <label>Display Name</label>
-        <input type="text" className="form-control" name="displayname" />
+        <input type="text" className="form-control" name="display_name" />
       </div>
       <div className="form-group">
         <label>Email</label>
@@ -27,7 +27,7 @@ function RegisterForm(props) {
       </div>
       <div className="form-group">
         <label>Confirm Email</label>
-        <input type="text" className="form-control" name="email2" required />
+        <input type="text" className="form-control" name="email_repeat" required />
       </div>
       <div className="form-group">
         <label>Password</label>
@@ -35,7 +35,7 @@ function RegisterForm(props) {
       </div>
       <div className="form-group">
         <label>Confirm Password</label>
-        <input type="password" className="form-control" name="password2" required />
+        <input type="password" className="form-control" name="password_repeat" required />
       </div>
 
       <button type="submit" className="btn btn-primary">Register</button>
