@@ -17,8 +17,9 @@ export default class Header extends Component {
               </span>
             :
               <span>
+                <NavLink to='/gym_list' className="navbar-link">Rock Gyms</NavLink>
                 <NavLink to='/settings' className="navbar-link">Settings</NavLink>
-                <NavLink onClick={this.props.logout} className='navbar-link' to='/login'>Logout</NavLink>
+                <NavLink to='/login' className='navbar-link' onClick={this.props.logout}>Logout</NavLink>
               </span>
           }
         </nav>
