@@ -23,7 +23,6 @@ class GymList extends React.Component {
       if (data.gyms) {
         let gyms = data.gyms;
         this.setState({ gyms })
-        console.log(gyms);
       } else {
         alert(`${data.message}`);
       }
