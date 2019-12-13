@@ -4,7 +4,7 @@ import './registerForm.css';
 
 function RegisterForm(props) {
   return (
-    <form className="RegisterForm" onSubmit={props.register}>
+    <form className="RegisterForm" onSubmit={props.handleRegister}>
       <div className="form-group">
         <label>First Name</label>
         <input type="text" className="form-control" name="first_name" required />

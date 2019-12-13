@@ -4,7 +4,7 @@ import './loginForm.css';
 
 function LoginForm(props) {
   return (
-    <form className="LoginForm" onSubmit={props.login}>
+    <form className="LoginForm" onSubmit={props.handleLogin}>
       <div className="form-group">
         <label>Email</label>
         <input type="email" className="form-control" name="email" required />
