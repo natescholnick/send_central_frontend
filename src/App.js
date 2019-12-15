@@ -36,7 +36,7 @@ export default class App extends Component {
 
     let res = await fetch(URL, {
       headers: {
-        'Centent-type': 'application/json',
+        'Content-type': 'application/json',
         'token': token
       }
     });
