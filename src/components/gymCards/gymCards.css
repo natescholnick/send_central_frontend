@@ -1,0 +1,19 @@
+.card {
+	border: 3px solid black;
+	padding: 15px;
+}
+
+.gym-name {
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 15px; 
+}
+
+.address {
+	font-style: italic;
+}
+
+p {
+	font-size: 80%;
+	margin-bottom: 0;
+}
