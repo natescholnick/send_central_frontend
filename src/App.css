@@ -1,3 +1,8 @@
+.App {
+  background-image: linear-gradient(to right, #ddf, lightgreen, #ddf);
+  min-height: 100vh;
+}
+
 .container {
   margin-bottom: 100px;
 }
@@ -17,11 +22,16 @@ form > button {
   padding: 25px;
 }
 
-img {
-	width: 100%;
-	height: auto;
-}
-
 h1 {
 	margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #33f;
+  text-decoration: none;
 }

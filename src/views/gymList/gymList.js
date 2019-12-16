@@ -14,7 +14,7 @@ class GymList extends React.Component {
 
   getGyms = () => {
 
-    const URL = 'https://send-central-backend.herokuapp.com/api/gym/get_gyms'
+    const URL = 'https://send-central-backend.herokuapp.com/api/gym/get_gyms';
 
     fetch(URL, {'method': 'GET'})
     .then(res => res.json())

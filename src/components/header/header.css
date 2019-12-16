@@ -1,6 +1,7 @@
-.header {
-	margin-left: 15%;
-	margin-right: 15%;
+.Header {
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: #87D3A7;
 }
 
 .navbar-link {

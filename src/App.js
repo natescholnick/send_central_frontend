@@ -7,6 +7,7 @@ import Login from './views/login/login.js';
 import Register from './views/register/register.js';
 import Settings from './views/settings/settings.js';
 import GymList from './views/gymList/gymList.js';
+import ProfileGym from './views/profileGym/profileGym.js';
 import SECRET_KEY from './config.js';
 let jwt = require('jsonwebtoken');
 
@@ -123,6 +124,7 @@ export default class App extends Component {
                   <Route exact path='/' render={() => <Home />} />
                   <Route exact path='/settings' render={() => <Settings />} />
                   <Route exact path='/gym_list' render={() => <GymList />} />
+                  <Route exact path='/gym/CRG_Watertown' render={() => <ProfileGym />} />
                 </span>
               :
                 <p>You may only access this page if logged in.</p>

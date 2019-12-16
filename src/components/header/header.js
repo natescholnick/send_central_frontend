@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom';
 export default class Header extends Component {
   render() {
     return (
-      <header className="header">
+      <header className="Header">
         <nav className="navbar navbar-nav nav-fill flex-md-row">
           <NavLink to='/' className="navbar-brand">Send Central</NavLink>
           {
